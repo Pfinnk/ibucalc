@@ -1,6 +1,6 @@
 # IBUcalc
 
-IBUcalc provides a quick way to determine relevant measurements for your homebrew. International Bitterness Units (IBU) from any hop additions are derived from your hop mass, alpha acid %, batch volume, original gravity, and boil time of the addition. Both imperial and metric functions are available. Alcohol By Volume % (ABV%) is derived from original and final gravity measurements.
+IBUcalc provides a quick way to determine relevant measurements for your homebrew. International Bitterness Units (IBU) from any hop additions are derived from your hop mass, alpha acid %, batch volume, original gravity, and boil time of the addition. Utilization numbers and formulas were sourced from [Glenn's Hop Utilization Numbers](https://realbeer.com/hops/research.html). Both imperial and metric functions are available. Alcohol By Volume % (ABV%) is derived from original and final gravity measurements.
 
 # Installation
 
