@@ -48,7 +48,7 @@ def ibumet(mg, aap, vl, og, t):
     ibur = round(ibu, 0)
     return ibur, ibu
 
-#calculate %ABV
+#calculate ABV%
 def abv(og, fg):
 
   #og = original gravity
