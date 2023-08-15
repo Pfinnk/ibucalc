@@ -58,4 +58,4 @@ def abv(og, fg):
   abvr = round(abv, 1)
   abvp = str(abv) + "%"
   abvrp = str(abvr) + "%"
-  return abvp, abvrp
+  return abvrp, abvp
