@@ -13,7 +13,7 @@ def ibuimp(mo, aap, vg, og, t):
     #conversions
     aad = aap/100
     vl = vg * 3.785412
-    mg = mo * 28349.5
+    mmg = mo * 28349.5
     
     #og and t are used to determine hop %utilization
     #source: https://realbeer.com/hops/research.html
@@ -21,7 +21,7 @@ def ibuimp(mo, aap, vg, og, t):
     btf = (1 - math.exp(-0.04 * t))/4.15
     u = bf * btf
     
-    ibu = (mg * aad * u)/vl
+    ibu = (mmg * aad * u)/vl
     ibur = round(ibu, 0)
     return ibur, ibu
     
