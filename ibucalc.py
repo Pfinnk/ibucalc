@@ -18,7 +18,7 @@ def ibuimp(mo, aap, vg, og, t):
     #og and t are used to determine hop %utilization
     #bf = Bigness factor to account for wort gravity
     #btf = Boil Time factor to account for boil time
-    #source: [Glenn's Hop Utilization Numbers](https://realbeer.com/hops/research.html)
+    #source: https://realbeer.com/hops/research.html
     bf = 1.65 * 0.000125**(og - 1)
     btf = (1 - math.exp(-0.04 * t))/4.15
     u = bf * btf
