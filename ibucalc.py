@@ -1,7 +1,7 @@
 # coding: utf-8
 import math
 
-#using imperial units
+#Calculate IBU using imperial units
 def ibuimp(mo, aap, vg, og, t):
     
     #mo = hop mass in ounces
@@ -25,7 +25,7 @@ def ibuimp(mo, aap, vg, og, t):
     ibur = round(ibu, 0)
     return ibur, ibu
     
-#using metric units
+#Calculate IBU using metric units
 def ibumet(mg, aap, vl, og, t):
     
     #mg = hop mass in grams
@@ -48,3 +48,12 @@ def ibumet(mg, aap, vl, og, t):
     ibur = round(ibu, 0)
     return ibur, ibu
 
+#calculate %ABV
+def abv(og, fg):
+
+  #og = original gravity
+  #fg = final gravity
+
+  abv = (og - fg) * 131
+  abvr = round(abv, 1)
+  return abvr, abv
